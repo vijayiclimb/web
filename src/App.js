@@ -22,8 +22,7 @@ import {baseUrl} from './util'
 import MenuIcon from '@material-ui/icons/Menu';
 import Cancel from './components/appPanel/cancelMgt/cancel'
 import Subscription from './components/analytics/subscription/subscription'
-import SubscriptionUser from './components/analytics/subscription/subscriptionUser'
-import Product from './components/analytics/marketanalysis/product/product'
+
 
 
 
@@ -189,15 +188,13 @@ console.log(zone,role);
         </div>
         <div className="mainContent">
          
-          {/* <ToastProvider>
+          <ToastProvider>
             <Route exact path="/submgt"><SubMgt place={zone} job={role} /></Route>
             </ToastProvider>
             <Route exact path="/promgt"><ProMgt place={zone} /></Route>
-            <Route exact path="/cancelMgt"><Cancel place={zone} /></Route> */}
+            <Route exact path="/cancelMgt"><Cancel place={zone} /></Route>
 
-            {/* /////Analytics///// */}
-            {/* <Route exact path="/subscriptionAnalytics"><Subscription place={zone} job={role}  /></Route>
-            <Route exact path='/productAnalytics'><Product/></Route> */}
+        
           
         </div>
       </div>
