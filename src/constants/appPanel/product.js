@@ -1,0 +1,3 @@
+export const FETCHPRODUCT = 'FETCHPRODUCT';
+export const FETCHSKU = 'FETCHSKU';
+export const FETCHSKUDETAIL = 'FETCHSKUDETAIL';

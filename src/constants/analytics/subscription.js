@@ -1,0 +1,7 @@
+export const GETANALYTICS ='GET_ANALYTICS';
+export const GETSUBS='GET_SUBS';
+export const ERROR = 'ERROR';
+export const SUCCESS = 'SUCCESS';
+export const PROFILEDETAILS='PROFILE_DETAILS'
+export const PROFSUCCESS = 'PROFILE_SUCCESS';
+export const PROFERROR="PROFILE_ERROR"

@@ -1,0 +1,214 @@
+
+.Sku{
+    margin-top: 30px;
+    width: 98%;
+    height: 500px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    padding-bottom: 2rem;
+    overflow: auto;
+
+  .sku_top{
+     padding: 1rem;
+     display: flex;
+  
+    .sku_image_container{
+        position: relative;
+        display: flex;
+        width: 500px;
+        overflow: hidden;
+        height: 120px;
+        padding: 0.5rem;
+        -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);  
+
+        .image-upload{
+            position: absolute;
+           transform: translate(450px,0px);
+           cursor: pointer;
+        }
+        .image-upload > input
+          {
+              display: none;
+              cursor: pointer;
+          }
+          
+          
+          .sku_image{
+             width: 100%;
+             height: 100%;
+               }
+
+    }
+
+    .sku_top_side{
+        margin-top: 20px;
+        margin-left: 60px;
+        .sku_category{
+            color: purple;
+        }
+        .sku_name{
+            margin-left: 30px;
+        }
+
+        .sku_title{
+            display: flex;
+            align-items: center;
+        }
+
+        .sku_rating{
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+
+
+
+            .sku_rating_name{
+                color: gray;
+            }
+        }
+
+        .sku_price{
+            display: flex;
+            align-items: center;
+            padding: 0.5rem;
+            margin-top: 10px;
+
+
+            .sku_price_value_price{
+              font-weight: 800;
+              margin-left: 40px;
+            }
+        }
+
+        .sku_description{
+            
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+
+            .sku_description_value{
+           margin-left: 5px;
+            }
+        }
+    }
+  }
+
+
+  .sku_down{
+      .sku_popular{
+          display: flex;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin-left: 50px;
+
+          .sku_popular_card{
+              padding: 1rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 200px;
+              height: 60px;
+              margin-left: 20px;
+              border-radius: 20px;
+              -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+              -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+              box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+              .sku_popular_name{
+               
+                  font-size: 12px;
+                  font-weight: 800;
+              }
+
+          }
+      }
+
+      .sku_down_sub{
+           display: flex;
+           margin-top: 20px;
+           justify-content: space-around;
+          .sku_specification{
+              width: 350px;
+              display: flex-start;
+
+              .sku_specification_detail{
+                  display: flex;
+                  margin-top: 10px;
+              }
+
+              .sku_specification_name{
+                 padding: 0.5rem;
+                 font-weight: 800;
+              }
+
+            
+
+            .sku_specification_value_category{
+               margin-left: 10px;
+            }
+
+            .sku_specification_value_product{
+                margin-left: 35px;
+             }
+
+             .sku_specification_value_sku{
+                margin-left: 10px;
+             }
+ 
+
+          }
+         
+
+          .sku_role_price{
+          
+          margin-top: 20px;
+          
+
+          .sku_roles{
+             margin-top: 10px;
+            .sku_role_name{
+                padding: 0.2rem;
+                 font-weight: 800;
+            }
+               
+            .sku_role_value{
+                margin-left: 10px;
+                font-size: 14px;
+            }
+
+            .sku_role_value_rider{
+                margin-left: 55px;
+            }
+
+            .sku_role_value_retailer{
+                margin-left: 30px;
+            }
+
+          }
+
+             }
+      }
+
+      .ButtonContainer{
+
+        display: flex;
+        flex-direction: row;
+
+        .sku_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 45%;
+        height: 37px;
+        margin-right: 20px;
+    }
+      }
+      
+
+      
+  }
+    
+}
