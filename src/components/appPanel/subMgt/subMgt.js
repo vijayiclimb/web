@@ -73,13 +73,25 @@ const userprof=(e)=>{
     "zone":`${place}`,
     "role":`${job}`                                                                                                                                                                                                                                        
    }
+   
+//    let headers = new Headers();
 
+//    headers.append('Content-Type', 'application/json');
+//    headers.append('Accept', 'application/json');
+ 
+//    headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
+//    headers.append('Access-Control-Allow-Credentials', 'true');
+ 
+//    headers.append('GET', 'POST', 'OPTIONS');
+ 
+//    headers.append('Authorization', 'Basic ' + base64.encode(username + ":" + password));
 
   const getSub=async()=>{
         
     await axios.post(`${baseUrl}VitaranSDK/vtrnGetSubscriberList`,paramPlace,{
       headers : {
-          'Content-Type': 'application/json',
+        'Content-Type': 'application/json',
+        "Access-Control-Allow-Origin": "*",
         }}).then((res) => {
 
                console.log(res)
